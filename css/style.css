@@ -2,10 +2,8 @@ header {
 
     width: 100%;
     height: 216px;
-    
     background-image: url("https://www.hdwallpapers.in/walls/3d_cubes-HD.jpg");
     
-
 
 }
 
@@ -14,18 +12,20 @@ h1{
     text-align: center;
     color: antiquewhite;
     
-    
-
 }
+
 h2{
     
     text-align: center;
     color: antiquewhite;
-    
 
 }
 
-input{
-    
-    float: center;
+div {
+
+    background-color: #1a1a1a;
+    width: 100%; 
+    height: 2px;
+     
 }
+
