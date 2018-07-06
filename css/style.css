@@ -1,13 +1,11 @@
-header {
+header  {
 
     width: 100%;
     height: 216px;
-
-    display: flex;
-    
     background-image: url("../img/header2.jpg");
     
 
+    
 
 }
 
@@ -18,16 +16,22 @@ h1 {
     text-align: center;
     color: antiquewhite;
     
-    
-
 }
-h2{
+
+h2 {
     
     text-align: center;
     color: antiquewhite;
-    
 
 }
 
+
+div {
+
+    background-color: #1a1a1a;
+    width: 100%; 
+    height: 2px;
+     
+}
 
 
