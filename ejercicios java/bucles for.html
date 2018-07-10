@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>Repeticiones. Bucle for</title>
+
+    </head>
+
+    <body>
+
+        <script>
+
+            /* SINTAXIS 
+            for (<sentencia_1>);(<sentencia_2>);(<sentencia_3>){
+
+            }
+            -Sentencia 1: se ejecuta antes del que empiece el bloque de código a repetir
+
+            -Sentencia 2: define la condiciones por la que el bloque de código se va a ejecutar.
+
+            -sentencia 3: se ejecuta después de que acabe el bloque de código a repetir */
+
+
+            var i; 
+            for (i = 1; i <= 5; i++){
+                alert ("i= "+i);
+            }
+
+            //Variaciones.
+
+            var j = 1;
+            for ( ; j <=5; j++){
+                alert ("j = "+j);
+            }
+
+            //
+
+            var k;
+            for (k=1; ;k++){
+                alert ("k = "+k);
+                if (k == 5){
+                    break;
+                }
+            }
+
+            var l;
+            for (l=1; l<=5; ){
+                alert ("l = "+l);
+                l++;
+            }
+
+
+            var m, n;
+            for (m=1, n=10; m<=10, n>=1; m++, n--){
+                alert ("m = "+m+" , n = "+n);
+            
+            }
+
+            
+
+
+            //
+
+
+
+            
+            
+        </scipt>
+    </body>       
