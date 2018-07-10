@@ -6,8 +6,8 @@ body {
 
 header  {
 
-    position: relative;
-    background-image: url("../img/header3.jpg");
+    position: relativegit;
+    background-image: url("../img/fox.jpg");
     width: 100vw;
     height: 250px;
     top: -47px;
@@ -16,14 +16,20 @@ header  {
      
 }
 
+@font-face {
+
+    font-family: Games;
+    src: url("../fonts/Games.ttf");
+}
+
 h1.title {
 
-    color: hsl(39, 72%, 52%);
+    color: whitesmoke;
     position: relative;
     width: 50vw;
     top: 50px;
-    left: 700px;
-    font-family: sans-serif;
+    left: 730px;
+    font-family: Games;
     font-size: 70px;
     text-shadow: 4px 4px 5px #000000;
     
@@ -52,7 +58,8 @@ input.searchbar {
     top: 40px;
     box-sizing: border-box;
     border: solid rgb(175, 136, 69);
-    border-radius: 10px;
+    border-radius: 50px;
+    
     
 }
 
@@ -60,7 +67,7 @@ hr {
 
     position: relative;
     width: 80vw;
-    top: 57px;
+    top: 70px;
     
 
 }
@@ -72,10 +79,9 @@ div.icons {
 
     position: relative;
     width: 1300px;
-    top: -100px;
+    top: -90px;
     left: 350px;
-    font-size: 20px;
-    
+    z-index: -1; 
 }
 
 h2.slider {
