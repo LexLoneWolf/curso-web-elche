@@ -1,25 +1,28 @@
+body {
+
+    background-color: rgb(41, 41, 41);
+}
+
+
 header  {
 
     position: relative;
     background-image: url("../img/header3.jpg");
     width: 100vw;
     height: 250px;
-    top: 0%;
+    top: -47px;
     right: 0%;
     left: 0%;
      
-    
-    
- 
-
 }
 
 h1.title {
 
-    text-align: center;
     color: hsl(39, 72%, 52%);
     position: relative;
+    width: 50vw;
     top: 50px;
+    left: 700px;
     font-family: sans-serif;
     font-size: 70px;
     text-shadow: 4px 4px 5px #000000;
@@ -45,47 +48,54 @@ input.searchbar {
     height: 45px;
     width: 400px;
     position: relative;
-    left: 610px;
+    left: 750px;
     top: 40px;
     box-sizing: border-box;
     border: solid rgb(175, 136, 69);
     border-radius: 10px;
     
+}
+
+hr {
+
+    position: relative;
+    width: 80vw;
+    top: 57px;
+    
 
 }
 
-div.buttons_icons {
 
 
-    width
-}
 
 div.icons {
 
-    width: 100vw;
     position: relative;
+    width: 1300px;
+    top: -100px;
+    left: 350px;
     font-size: 20px;
     
 }
 
-div.slider {
+h2.slider {
 
     position: relative;
-    top: -650px;
+    top: -100px;
     text-align: center;
     font-family: sans-serif;
-    font-size: 25px;
+    font-size: 35px;
     text-shadow: 4px 4px 4px #000000;
     color: darkgray;
 
 }
 
-div.list {
+ul.descriptionList {
 
     width: 500px;
     position: relative;
-    top: -500px;
-    left: 800px;
+    top: 70px;
+    left: 1000px;
     font-family: sans-serif;
     font-size: 23px;
     text-shadow: 2px 2px 4px #000000;
@@ -95,10 +105,14 @@ div.list {
 
 }
 
-p.prueba {
+div.gameLogo {
 
-    color: white;
-    font-family: sans-serif;
+    position: relative;
+    background-image: url("../img/evoland2.jpg");
+    width: 620px;
+    height: 350px;
+    top: -230px;
+    left: 250px;
     
 }
 
