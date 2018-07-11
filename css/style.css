@@ -1,20 +1,33 @@
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+
+}
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+
+}
+
 body {
 
     background-color: rgb(41, 41, 41);
     
     
-
+    
     
 }
 
 
+
+
 header  {
 
-    position: relativegit;
+    position: relative;
     background-image: url("../img/fox.jpg");
     width: 100vw;
     height: 250px;
-    top: -47px;
+    top: 0px;
     right: 0%;
     left: 0%;
      
@@ -64,6 +77,7 @@ h1.title {
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
     background-color: white;
     background-image: url("../img/searchIcon.png");
@@ -76,7 +90,7 @@ h1.title {
     
 }
 
-input[type=text]:focus {
+input[type=text]:hover {
     width: 15%;
 }
 
@@ -133,7 +147,7 @@ ul.descriptionList {
     width: 500px;
     position: relative;
     top: 70px;
-    left: 1100px;
+    left: 900px;
     font-family: sans-serif;
     font-size: 23px;
     text-shadow: 2px 2px 4px #000000;
@@ -150,7 +164,7 @@ div.gameLogo {
     width: 620px;
     height: 350px;
     top: -230px;
-    left: 250px;
+    left: 210px;
     
 }
 
