@@ -1,6 +1,10 @@
 body {
 
     background-color: rgb(41, 41, 41);
+    
+    
+
+    
 }
 
 
@@ -24,14 +28,16 @@ header  {
 
 h1.title {
 
-    color: whitesmoke;
+    color: rgb(255, 255, 255);
     position: relative;
     width: 50vw;
     top: 50px;
-    left: 730px;
+    left: 215px;
     font-family: Games;
     font-size: 70px;
     text-shadow: 4px 4px 5px #000000;
+    margin: auto;
+    
     
     
     
@@ -49,19 +55,45 @@ h1.title {
 } */
 
 
-input.searchbar {
+ input[type=text] {
 
-    height: 45px;
+    position: relative;
+    top: 85px;
+    left: 770px;
+    width: 220px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 50px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url("../img/searchIcon.png");
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    opacity: 0.6;
+    
+}
+
+input[type=text]:focus {
+    width: 15%;
+}
+
+   /* height: 45px;
     width: 400px;
     position: relative;
     left: 750px;
     top: 40px;
     box-sizing: border-box;
-    border: solid rgb(175, 136, 69);
+    border: solid whitesmoke;
     border-radius: 50px;
+    opacity: 0.5; 
+
     
     
-}
+    
+}*/
 
 hr {
 
