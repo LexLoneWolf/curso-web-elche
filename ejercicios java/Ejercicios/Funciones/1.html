@@ -2,34 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
 <body>
 
-    <script>
-    
-    
-
-    function nombreCompleto(){
-
-        var nombre = "Alexis";
-        var apellidos = "Coves Berna";
-        var nombreCompleto = nombre + " " + apellidos;
-
-        document.getElementById("Nombre").innerHTML = nombreCompleto;
-    }
-
-    
-    
-    </script>
-
-    <p id="Nombre"></p>
+    <p id="Potencia"></p>
 
     <script>
-    nombreCompleto();
     
+    var x = 5;
+
+    function potencia (){
+
+        var resultado = x * x;
+        return resultado;
+}
+
+    var resultado = potencia();
+
+    potencia();
+    document.getElementById("Potencia").innerHTML = resultado;
+        
     </script>
     
 </body>
