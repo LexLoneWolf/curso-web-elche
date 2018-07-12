@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+    <p id="buenosDias"></p>
+
+    <script>
+
+    function date() {
+
+        var date = new Date;
+        var text; 
+
+        document.getElementById("buenosDias").innerHTML = date.getHours();
+
+    }
+    
+    date();
+
+    if (date < 12) {
+        
+        text = "Buenos Días";
+         
+    }
+    else {
+
+        texto = "Buenas tardes";
+    }
+    
+    
+    </script>
+    
+</body>
+</html>

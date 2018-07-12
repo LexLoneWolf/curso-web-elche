@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <p>Hola Mundo</p>
+
+    <p class="intro">El dom es muy útil.</p>
+    <p class="Intro">Este ejemplo demuestra el método <b>querySelectorAll</b></p>
+
+    <p id="demo"></p>
+    <script>
+    
+    var x = document.querySelectorAll("p.intro");
+    document.getElementById("demo").innerHTML = 'El primer párrafo (index0) con clase="intro": ' + [0].innerHTML;
+    
+    </script>
+    
+</body>
+</html>

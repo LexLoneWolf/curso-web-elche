@@ -10,12 +10,19 @@
     
     <p id="replace"></p>
 
-<script>
+    <p id="aCelsius"></p>
+
+    <script>
 
     str = "Hace mucho calor, tenemos que estar por los 40ºC";
     var r = str.replace("104ºF", '40ºC');
     document.getElementById("replace").innerHTML = r;
      alert("Cambio de fahrenheit a celsius.")
+
+    function toCelsius (f) {
+        return (5/9) * (f-32);
+    }
+    document.getElementById("aCelsius").innerHTML = toCelsius(77);
 
 
 

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+<p>Pulsa el botón para  saber el día de la semana</p>
+
+<button onclick="button()">Púlsame!</button>
+
+<p id="demo"></p>
+
+<script>
+
+
+var day;
+
+function button (){
+    document.getElementById("demo").innerHTML = "Hoy es" + day;
+
+}
+
+switch (new Date().getDay()) {
+
+    case 0:
+    day = "Domingo";
+    break;
+    case 1:
+    day = "Lunes";
+    break;
+    case 2:
+    day = "Martes";
+    break;
+    case 3:
+    day = "Miércoles";
+    break;
+    case 4:
+    day ="Jueves";
+    break;
+    case 5:
+    day ="Viernes";
+    break;
+    case 6:
+    day ="Sábado";
+    
+    
+}
+
+
+</script>
+</body>
+</html>
