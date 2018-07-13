@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+    
+
+    <p id="resultado"></p>
+    <script>
+    
+    var nota = 8;
+        
+    if (nota <=4){
+
+        document.getElementById("resultado").innerHTML = nota + "=" + "Suspenso";
+    }
+    if (nota >= 5){
+        document.getElementById("resultado").innerHTML = nota + "=" + "Suficiente";
+    }
+    if (nota == 6){
+        document.getElementById("resultado").innerHTML = nota + "=" + "Bien";
+    }
+    if (nota >=7){ 
+        document.getElementById("resultado").innerHTML = nota + "=" + "Notable";
+    }
+    if (nota >= 9){
+        document.getElementById("resultado").innerHTML = nota + "=" + "Sobresaliente";
+    }
+
+
+        
+    </script>
+    
+</body>
+</html>

@@ -7,23 +7,21 @@
     <title>Document</title>
 </head>
 <body>
+
     <h3>Vamos a buscar los elementos <b>P</b></h3>
     
 <p>Hola mundo</p>
 
-<p>este es un ejemplo del método <b>getElementByTagName</b></p>
+<p>Este es un ejemplo del método <b>getElementsByTagName</b></p>
 
 <p id="demo"></p>
+
 <script>
 
+    var x = document.getElementsByTagName("p");
+    document.getElementById("demo").innerHTML = "El primer párrafo (index 0) es: " + x[0].innerHTML;
 
-    var x = document.getElementsByTagName("P");
-    document.getElementById("demo").innerHTML = 'El primer párrafo (index 0) es: ' + x[0].innerHTML;
 </script>
-
-
-
-
 
 </body>
 </html>
