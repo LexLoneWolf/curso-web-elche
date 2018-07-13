@@ -8,5 +8,18 @@
 </head>
 <body>
     
+
+    <p>Este botón da la hora.</p>
+
+    <button onclick="displayDate()">Qué hora es?</button>
+    <script>
+    
+    function displayDate() {
+    document.getElementById("demo").innerHTML = Date();
+    }
+    
+    </script>
+
+<p id="demo"></p>
 </body>
 </html>
