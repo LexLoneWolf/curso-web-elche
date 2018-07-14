@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+<h3>Vamos a ver los eventos onmousedown, onmouseup y onclick que son todos parte de mouse-click</h3>
+
+<div onmousedown="mDown(this)"
+ onmouseup="mUp(this)"
+  style="background-color: rgb(0, 255, 255);width:90px;height: 20px;padding: 40px;">Púlsame</div>
+
+  <script>
+  
+  function mDown(obj){
+      obj.style.backgroundColor = "#1ec5e5";
+      obj.innerHTML = "Pulsado";
+  }
+
+  function mUp(obj){
+      obj.style.backgroundColor = "rgb(0, 255, 255)";
+      obj.innerHTML = "Gracias";
+  }
+  
+  </script>
+
+
+</body>
+</html>
