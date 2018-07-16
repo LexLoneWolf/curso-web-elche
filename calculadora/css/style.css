@@ -1,21 +1,39 @@
-*{
+body {
     margin: 0;
     padding: 0;
-    background-color: darkgrey;
+    background-color: #ccc;
+}
+
+.main {
+    position: relative;
+    top: 80px;
+    left: 500px;
 
 }
-.button {
-    width: 50;
-    height: 50;
-    font-size: 25;
+
+
+input.button {
+    width: 100px;;
+    height: 100px;
+    font-size: 50px;
     margin: 2;
     cursor: pointer;
+    color: royalblue;
 }   
+
 .display {
     width: 217;
     margin: 5;
-    font-size: 25;
+    font-size: 50;
     padding: 5;
 
 
+}
+
+input {
+
+    width: 500px;
+    height: 50px;
+    color: dimgrey;
+    
 }

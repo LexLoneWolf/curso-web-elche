@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+<style type="text/css">
+    *{
+        padding: 5px;
+    }
+</style>
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $("tr:odd").css("background", "yellow");
+        $("tr:even").css("background", "orange");
+        $("p:first").css("background", "red");
+        $("p:last").css("background", "green");
+        $("form :text").css("background", "purple");
+        $("form :password").css("background", "blue");
+        $("form :submit").css("background", "violet");
+    })
+
+</script>
+</head>
+<body>
+    
+    <table border="1">
+        <thead>
+            <th>No.</th>
+            <th>Nombre</th>
+            <th>Email</th>
+
+
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Paquito Chocolatero</td>
+                <td>paco_elsobrao@gmail.com</td>
+            </tr>
+            <tr>
+
+                    <td>2</td>
+                    <td>Juan Perez</td>
+                    <td>juansinmiedo@gmail.com</td>
+
+
+            </tr>
+            <tr>
+
+                    <td>3</td>
+                    <td>John Rambo</td>
+                    <td>Johnrambo@gmail.com</td>
+
+
+            </tr>
+
+
+
+        </tbody>
+    </table>
+
+    <p>Esto es un párrafo</p>
+    <p>Esto es otro</p>
+    <p> Y otro más</p>
+
+    <form>
+        <label>Nombre:<input type="text"></label>
+        <label>Contraseña<input type="password"></label>
+        <input type="submit" value="Sign In">
+
+
+
+
+
+    </form>
+
+    
+</body>
+</html>

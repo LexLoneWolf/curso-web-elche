@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+        $("p.marca").css("background", "yellow");
+        $("p.marca span").css("background", "yellow");
+        $("ul li").css("background", "yellow");
+        $("ul#marca li").css("background", "red");
+        $("ul.marca li").css("background", "green");
+    });
+    </script>
+</head>
+<body>
+    
+    <p>Esto es un párrafo</p>
+    <p>Esato es otro párrafo</p>
+    <p>y otro más</p>
+
+    <ul>
+
+    <li>Item uno</li>
+    <li>Item dos</li>
+    <li>Item tres</li>
+
+    </ul>
+
+    <ul id="marca">
+
+        <li>Lista uno</li>
+        <li>Lista dos</li>
+        <li>Lista 3</li>
+
+    </ul>
+
+    <ul class="marca">
+        <li>Y otro</li>
+        <li>Pozi</li>
+        <li>Pono</li>
+    </ul>
+
+    <p> Go to <a href="#">Inicio</a></p>
+
+    
+
+    
+    
+</body>
+</html>

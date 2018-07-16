@@ -8,8 +8,8 @@
     <script>
 
     function validateForm() {
-        var x = document.forms["MyForm"][fnombre].value;
-        if (x == ""){
+        var x = document.forms["myForm"]["fnombre"].value;
+        if (x == "") {
             alert("El campo nombre debe ser rellenado");
             return false;
         }
@@ -17,7 +17,7 @@
     </script>
 </head>
 <body>
-    <form name="myForm" action="/action_page_post.php" onsubmit="return validateForm()" method="post">
+<form name="myForm" action="/action_page_post.php" onsubmit="return validateForm()" method="post">
     Nombre: <input type="text" name="fnombre">
     <input type="submit" value="Enviar">
 </form>
