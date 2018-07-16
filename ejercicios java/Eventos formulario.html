@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+
+    function validateForm() {
+        var x = document.forms["MyForm"][fnombre].value;
+        if (x == ""){
+            alert("El campo nombre debe ser rellenado");
+            return false;
+        }
+    }
+    </script>
+</head>
+<body>
+    <form name="myForm" action="/action_page_post.php" onsubmit="return validateForm()" method="post">
+    Nombre: <input type="text" name="fnombre">
+    <input type="submit" value="Enviar">
+</form>
+    
+</body>
+</html>
