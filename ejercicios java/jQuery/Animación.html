@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<style>
+#container {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  background: yellow;
+}
+#animate {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-color: red;
+}
+</style>
+<body>
+
+<p>
+<button onclick="myMove()">Pulsa</button>
+<button onclick="myMove2()">Vuelve</button>
+</p>
+
+<div id ="container">
+<div id ="animate"></div>
+</div>
+<script>
+function myMove() {
+  var elem = document.getElementById("animate");
+  var pos = 0;
+  var id = setInterval(frame, 5);
+  function frame() {
+    if (pos == 350) {
+      clearInterval(id);
+    } else {
+      pos++; 
+      elem.style.top = pos + 'px'; 
+      elem.style.left = pos + 'px'; 
+    }
+  }
+}
+
+function myMove2(){
+    var elem2 = document.getElementById("animate");
+    var pos2 = 350;
+    var id2 = setInterval(frame, )
+    function frame2(){
+        if (pos2 == 0){
+            clearInterval(id2);
+        } else {
+            pos--;
+            elem2.style.top = pos2 + 'px';
+            elem2.style.left = pos2 + 'px';
+        }
+    }
+}
+</script>
+
+</body>
+</html>

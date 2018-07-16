@@ -8,8 +8,8 @@
     <title>Calculadora</title>
 
     <script>
-        function insert (num) {
-            
+        function insert(num) {
+            document.forms.Display.value = document.forms.disPlay.value + num;
         }
     
     </script>
@@ -17,7 +17,7 @@
 </head>
 <body>
     <div class="main">
-        <input id="display" type="text" name="display">
+        <input id="disPlay" type="text" name="disPlay">
             <table>
                 <tr>
                     <td><input class=button type="button" value="C"></td> 
