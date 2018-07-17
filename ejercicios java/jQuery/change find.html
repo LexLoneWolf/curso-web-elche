@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>    
+    <script>
+    $(document).ready(function(){
+        $("select").change(function(){
+            var selectedOption = $(this).find(":selected").val();
+            alert("Te vas de vacaciones a - " + selectedOption);
+        })
+    })
+    
+    </script>
+</head>
+<body>
+    <h2>¿A qué ciudad vas a ir a estas vacaiones?</h2>
+    <from>
+        <label>Ciudad:</label>
+        <select>
+            <option>Roma</option>
+            <option>Paris</option>
+            <option>New York</option>
+        </select>
+    </from>
+    <p><strong>Aviso:</strong>Selecciona un valor del menu desplegable</p>
+    
+</body>
+</html>

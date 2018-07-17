@@ -9,6 +9,7 @@ body {
     width: 200px;
     top: 80px;
     left: 40%;
+    
 }
 
 
@@ -20,15 +21,23 @@ input.button {
     cursor: pointer;
     background-color: #56638A;
     color: lightskyblue;
+    border-width: 5px;
     border-radius: 25px;
     border-color: rgb(137, 43, 226);
-}   
+} 
+
+@font-face {
+    font-family: digital;
+    src: url("../fonts/digital.ttf");
+}
+
 
 input#display {
     background-color: #63A088;
     width: 400px;
     margin: 15px;
-    font-size: 50px;
+    font-family: digital;
+    font-size: 60px;
     padding: 5px;
     text-align: right;
     border-radius: 20%;

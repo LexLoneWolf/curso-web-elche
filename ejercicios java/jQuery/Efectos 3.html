@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <style>
+    p{
+        padding: 15px;
+        background: #F0E68c;
+    }
+    </style>
+    <script>
+    $(document).ready(function(){
+        $(".hide-btn").click(function(){
+            $("p").hide("slow", function(){
+                
+            });
+            alert("El efecto de ocultación ha terminado");
+        });
+    });
+
+    $(document).ready(function(){
+        $(".show-btn").click(function(){
+            $("p").show("slow", function(){
+                
+            });
+            alert("El efecto de mostrado ha terminado");
+        });
+    });
+    
+    </script>
+    </head>
+
+    <body>
+        <button type="button" class="hide-btn">Esconde el párrafo</button>
+        <button type="button" class="show-btn">Muestra el párrafo</button>
+        <p>Esto esun párrafo</p>
+
+    </body>
+
+</html>

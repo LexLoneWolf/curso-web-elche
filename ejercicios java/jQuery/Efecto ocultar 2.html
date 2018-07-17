@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <style>
+    p{
+        padding: 15px;
+        background: #F0E68c;
+
+    }
+    
+    </style>
+    <script>
+    $(document).ready(function(){
+        $(".hide-btn").click(function(){
+            $("p.normal").hide();
+            $("p.fast").hide("fast");
+            $("p.slow").hide("slow");
+            $("p.very-fast").hide(50);
+            $("p.very-slow").hide(2000);
+        });
+        $(".show-btn").click(function(){
+            $("p.normal").show();
+            $("p.fast").show("fast");
+            $("p.slow").show("slow");
+            $("p.very-fast").show(50);
+            $("p.very-slow").show(2000);
+        });
+    });
+        
+    </script>
+</head>
+<body>
+
+    <button type="button" class="hide-btn">Esconde los párrafos</button>
+    <button type="button" class="show-btn">Muestra los párrafos</button>
+    <p class="very-fast">mu rápido</p>
+    <p class="normal">normal</p>
+    <p class="fast">rápido</p>
+    <p class="slow">leento</p>
+    <p class="vary-slow">Muuuy leeeento</p>
+    
+</body>
+</html>

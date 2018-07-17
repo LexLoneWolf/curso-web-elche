@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script>
+    label{
+        display: block;
+        margin: 5px 0;
+    }
+    label span{
+        display: none;
+    }
+</script>
+<script>
+$(document).ready(function(){
+    $("input").focus(function(){
+        $(this).nex("span").show().fadeOut("slow");
+    })
+})
+</script>
+</head>
+
+<body>
+
+    <form>
+        <label>Email <input type="text"><span>Fíjate que no te vea nadie</span></label>
+        <label>Constraseña <input type="password"><span>Cuida tus espaldas</span></label>
+        <label><input type="submit" value="Entrar"><span>Accede ahora</span></label>
+    </form>
+
+    <p><strong>Aviso</strong>Con el ratón o con la tecla "TAB" tendras foco.</p>
+    
+</body>
+</html>

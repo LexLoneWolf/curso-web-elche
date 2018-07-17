@@ -15,6 +15,11 @@
 		var x = document.getElementById("display").value;
 		document.getElementById("display").value = eval(x);
     }
+
+    function resetf() {
+        $("form")[0].reset();
+    }
+    
     </script>
     
 </head>
@@ -23,10 +28,10 @@
         <input id="display" type="text" placeholder="0" name="display">
             <table>
                 <tr>
-                    <td><input class=button type="button" value="C"></td> 
+                    <td><input class=button type="button" value="C" onclick="resetf()"</td> 
                     <td><input class=button type="button" value="<"></td> 
                     <td><input class=button type="button" value="/" onclick="event1(this.value)"></td>
-                    <td><input class=button type="button" value="x" onclick="event1(this.value)"></td>
+                    <td><input class=button type="button" value="x" onclick="event1('*')"></td
                 </tr>
                 <tr>
                     <td><input class=button type="button" value="7" onclick="event1(this.value)"></td>
