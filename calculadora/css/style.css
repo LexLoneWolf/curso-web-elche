@@ -1,39 +1,36 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #ccc;
+    background-color: slategrey;
 }
 
 .main {
     position: relative;
+    width: 200px;
     top: 80px;
-    left: 500px;
-
+    left: 40%;
 }
 
 
 input.button {
-    width: 100px;;
+    width: 100px;
     height: 100px;
     font-size: 50px;
-    margin: 2;
+    margin: 2px;
     cursor: pointer;
-    color: royalblue;
+    background-color: #56638A;
+    color: lightskyblue;
+    border-radius: 25px;
+    border-color: rgb(137, 43, 226);
 }   
 
-.display {
-    width: 217;
-    margin: 5;
-    font-size: 50;
-    padding: 5;
-
-
+input#display {
+    background-color: #63A088;
+    width: 400px;
+    margin: 15px;
+    font-size: 50px;
+    padding: 5px;
+    text-align: right;
+    border-radius: 20%;
 }
 
-input {
-
-    width: 500px;
-    height: 50px;
-    color: dimgrey;
-    
-}
