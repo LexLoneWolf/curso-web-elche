@@ -30,11 +30,13 @@ header  {
      
 }
 
-@font-face {
+ @font-face {
 
-    font-family: Games;
-    src: url("../fonts/Games.ttf");
+    font-family: Montserrat-Light;
+    src: url("../fonts/Montserrat-Light.ttf");
 }
+
+
 
 h1 {
 
@@ -43,9 +45,9 @@ h1 {
     justify-items: center;
     text-align: center;
     color: rgb(255, 255, 255);
-    font-family: Games;
-    font-size: 80px;
-    text-shadow: 4px 4px 5px #000000;
+    font-family: Montserrat-Light;
+    font-size: 70px;
+    text-shadow: 5px 5px 6px #000000;
     
 }
 
@@ -103,19 +105,28 @@ input.searchbar:hover {
 
 div.platforms {
 
-    display: flex;
     align-content: center;
     position: relative;
     width: 100vw;
-    z-index: -1; 
     
+    
+}
+
+div.platforms i {
+    align-items: center;
+    font-size: 40px;
+    color: lightgray;
+    text-shadow: 5px 4px 5px #000000;
+    margin: 30px 15px 0px 15px;
+    border: none;
+    border-spacing: 30px;
 }
 
 div.platforms hr {
     align-items: center;
     position: relative;
     width: 80vw;
-    flex-direction: column;
+    
 }
 
 h2.slider {

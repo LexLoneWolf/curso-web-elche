@@ -18,6 +18,7 @@
 
 <p>
 <button onclick="myMove()">Pulsa</button>
+<button onclick="myMove2()">Vuelve</button>
 </p> 
 
 <div id ="container">
@@ -32,21 +33,32 @@ function myMove() {
   function frame() {
     if (pos == 350) {
       clearInterval(id);
-        } else if (pos == 350) {
-          pos--; 
+    }  else {
+        pos++; 
       elem.style.top = pos + 'px'; 
       elem.style.left = pos + 'px';
 
-        } else {
-          pos++; 
-      elem.style.top = pos + 'px'; 
-      elem.style.left = pos + 'px';
-        }
-      }
-    } 
-       
+    }   
+  }
+}    
 
+function myMove2() {
+    var elem2 = document.getElementById("animate");
+    var pos2 = 350;
+    var id2 = setInterval(frame, 5);
+    function frame2() {
+        if (pos2 = 0){
+        clearInterval(id);
 
+        }  else {
+            pos2 --;
+        elem2.style.top = pos2 + 'px';
+        elem2.style.left = pos2 + 'px';
+  }
+    
+ }
+
+}
 
 
 
