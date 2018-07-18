@@ -12,24 +12,21 @@ html {
 body {
 
     background-color: rgb(41, 41, 41);
-    
-    
-    
-    
 }
 
 
 
 
 header  {
-
+    display: flex;
+    align-content: center;
+    justify-content: center;
     position: relative;
     background-image: url("../img/fox.jpg");
     width: 100vw;
     height: 250px;
-    top: 0px;
-    right: 0%;
-    left: 0%;
+    flex-direction: column;
+    
      
 }
 
@@ -39,20 +36,16 @@ header  {
     src: url("../fonts/Games.ttf");
 }
 
-h1.title {
+h1 {
 
-    color: rgb(255, 255, 255);
+    
     position: relative;
-    width: 50vw;
-    top: 50px;
-    left: 215px;
+    justify-items: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
     font-family: Games;
-    font-size: 70px;
+    font-size: 80px;
     text-shadow: 4px 4px 5px #000000;
-    margin: auto;
-    
-    
-    
     
 }
 
@@ -68,12 +61,11 @@ h1.title {
 } */
 
 
- input[type=text] {
-
+ input.searchbar {
+    margin: auto;
     position: relative;
-    top: 85px;
-    left: 770px;
     width: 220px;
+    top: -20px;
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 50px;
@@ -90,8 +82,8 @@ h1.title {
     
 }
 
-input[type=text]:hover {
-    width: 15%;
+input.searchbar:hover {
+    width: 400px;
 }
 
    /* height: 45px;
@@ -109,25 +101,21 @@ input[type=text]:hover {
     
 }*/
 
-hr {
+div.platforms {
 
+    display: flex;
+    align-content: center;
     position: relative;
-    width: 80vw;
-    top: 70px;
+    width: 100vw;
+    z-index: -1; 
     
-
 }
 
-
-
-
-div.icons {
-
+div.platforms hr {
+    align-items: center;
     position: relative;
-    width: 1300px;
-    top: -90px;
-    left: 350px;
-    z-index: -1; 
+    width: 80vw;
+    flex-direction: column;
 }
 
 h2.slider {
