@@ -1,0 +1,266 @@
+Examen de JavaScript
+
+
+Qué compañía inventó el lenguaje JavaScript?
+
+Mozilla 
+Netscape [x]
+Sun
+Microsoft
+
+
+
+JavaScript es un lenguaje de programación
+
+Compilado
+Interpretado [x]
+No estructurado
+Ninguna de las anteriores
+
+
+
+Qué es el DOM
+
+Un atributo
+Un videojuego
+Una api para documentos HTML y XML [x]
+Un elemento
+
+
+
+Dónde se puede insertar código JavaScript en un documento HTML
+
+En el <head>
+En el <body>
+Tanto en el <head> como en el <body> [x]
+Sólo en el <head> si el documento está en un fichero aparte
+
+
+
+El DOM representa una página como un
+
+Un árbol [x]
+Una tabla
+Una lista hash
+Ninguna de las anteriores es correcta
+
+
+
+Cual es el acrónimo de DOM
+
+Document Object Markup
+Document Of Model
+Domain Object Model
+Ninguna de las anteriores son correctas [x]
+
+
+
+Como se pone en JavaScript un comentario de una línea
+
+# Comentario
+// Comentario [x]
+/* Comentario
+Ninguna de las anteriores
+
+
+
+Como se genera en JavasScript un número aleatorio
+
+Con Math.rnd()
+Con Math.round()
+Con Math.random() [x]
+Ninguna de las anteriores
+
+
+
+En JavaScript las posiciones de los caracteres de una cadena empiezan en
+
+-1
+0 [x]
+1
+Ninguna de las anteriores
+
+
+
+Cual es la forma correcta de crear un Array en JavaScript
+
+var txt = new Array:1=(“tim”),2=(“kim”),3=(“jim”)
+var txt = new Array(1=”tim”,2=”kim”,3=”jim”)
+var txt = new Array(“tim”,”kim”,”jim”) [x]
+var txt = new Array(1:”tim”,2:”kim”,3:”jim”)
+
+
+
+En JavaScript cual es la función que se emplea para convertir una cadena a minúscula
+
+lower()
+lowerCase()
+toLower()
+toLowerCase() [x]
+
+
+
+En JavaScript, ¿cómo se muestra una ventana con el mensaje “Hola mundo!”?
+
+alert(“Hola mundo!”); [x]
+alertBox = “Hola mundo!”;
+alertBox(“Hola mundo!);
+msgBox(“Hola mundo!);
+
+
+
+En JavaScript, el operador para concatenar cadenas es
+
+”+” [x]
+”%”
+”.”
+Ninguna de las anteriores
+
+
+
+En JavaScript, ¿cómo se llama a una función llamada “miFuncion”?
+
+call function miFuncion()
+call miFuncion()
+miFuncion() [x]
+Ninguna de las anteriores es correcta
+
+
+
+En JavaScript, para obtener un carácter concreto de una cadena según su posición se emplea la función
+
+char()
+charAt() [x]
+value()
+Ninguna de las anteriores
+
+
+
+En JavaScript, ¿cómo se escribe un bucle “for” para contar desde 1 hasta 5? 
+
+for(i <= 5; i++)
+for(i = 1; i <= 5; i++)
+for i = 1 to 5
+Ninguna de las anteriores [x]
+
+
+
+En JavaScript, ¿cómo se define una función llamada “miFuncion”?
+
+Function:miFuncion()
+function->miFuncion()
+function miFuncion() [x]
+Ninguna de las anteriores es correcta
+
+
+
+En JavaScript, ¿cómo se escribe una sentencia condicional para comprobar que la variable “i” es igual a 5?
+
+if i=5 then
+if(i=5)
+if i==5 then
+if(i==5) [x]
+
+
+
+En JavaScript, ¿cómo se redondea el número 7.25 al entero más cercano?
+
+round(7.25)
+Math.round(7.25) [x]
+Math.rnd(7.25)
+rnd(7.25)
+
+
+En JavaScript, para finalizar un bucle de tipo “for” se emplea
+
+No se puede
+Exit for
+break [x]
+Las anteriores respuestas no son correctas
+
+
+
+En una página XHTML, ¿cuál es la forma correcta de hacer referencia a un fichero externo con código JavaScript llamado “xxx.js”?
+
+<script name=”xxx.js” type=”text/javascript” />
+<script href=”xxx.js” type=”text/javascript” />
+<script src=”xxx.js” type=”text/javascript” /> [x]
+Ninguna de las anteriores
+
+
+
+Respecto al final de instrucción en JavaScript
+
+Se emplea el punto y coma (;), pero es opcional
+No se emplea ningún delimitador
+Se emplea el punto y coma (;) y es obligatorio [x]
+Ninguna es correcta
+
+
+
+En JavaScript, ¿cómo se calcula el máximo de los números 2 y 4?
+
+ceil(2, 4)
+top(2, 4)
+Math.ceil(2, 4)
+Math.max(2, 4) [x]
+
+
+
+En JavaScript, ¿cómo se escribe una sentencia condicional para comprobar que la variable “i” es distinta de 5?
+if(i <> 5)
+if(i != 5) [x]
+if i <> 5
+if i != 5
+
+
+¿Qué etiqueta de HTML se emplea para escribir código JavaScript?
+
+<javascript>
+<script> [x]
+<scripting>
+<js>
+
+
+
+En JavaScript, ¿cómo se llama el objeto que representa una expresión regular?
+
+No hay ningún objeto
+ExpReg
+RegExp [x]
+Rexp
+
+
+JavaScript fue diseñado por
+
+Bill Gates
+Bjarne Stroustrup
+Brendan Eich [x]
+Dennis M. Ritchie
+
+
+
+En una navegador web, para escribir algo en la consola se emplea
+
+console.append()
+console.log() [x]
+console.print()
+console.write()
+
+
+
+Con Git qué comando usamos para añadir ficheros
+
+Git commit
+Git push
+Git add [x]
+Ninguno de los anteriores
+
+
+
+Con Git qué comando usamos para subir ficheros al repositorio
+
+Git commit
+Git push [x]
+Git add
+Ninguno de los anteriores
