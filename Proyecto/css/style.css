@@ -1,23 +1,17 @@
 html {
     overflow: scroll;
     overflow-x: hidden;
-
 }
 ::-webkit-scrollbar {
     width: 0px;  /* remove scrollbar space */
     background: transparent;  /* optional: just make scrollbar invisible */
-
 }
-
 body {
 
     background-color: rgb(41, 41, 41);
 }
-
-
-
-
 header  {
+
     display: flex;
     align-content: center;
     justify-content: center;
@@ -26,21 +20,14 @@ header  {
     width: 100vw;
     height: 250px;
     flex-direction: column;
-    
-     
 }
-
- @font-face {
+@font-face {
 
     font-family: Montserrat-Light;
     src: url("../fonts/Montserrat-Light.ttf");
 }
-
-
-
 h1 {
 
-    
     position: relative;
     justify-items: center;
     text-align: center;
@@ -48,9 +35,7 @@ h1 {
     font-family: Montserrat-Light;
     font-size: 70px;
     text-shadow: 5px 5px 6px #000000;
-    
 }
-
 /* h2.subtitle {
 
     color: antiquewhite;
@@ -59,11 +44,8 @@ h1 {
     top: 25px;
     font-family: sans-serif;
     font-size: 20px; 
-
 } */
-
-
- input.searchbar {
+input.searchbar {
     margin: auto;
     position: relative;
     width: 220px;
@@ -71,7 +53,7 @@ h1 {
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 50px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Montserrat-Light;
     font-size: 16px;
     background-color: white;
     background-image: url("../img/searchIcon.png");
@@ -81,9 +63,7 @@ h1 {
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
     opacity: 0.5;
-    
 }
-
 input.searchbar:hover {
     width: 400px;
 }
@@ -96,76 +76,79 @@ input.searchbar:hover {
     box-sizing: border-box;
     border: solid whitesmoke;
     border-radius: 50px;
-    opacity: 0.5; 
-
-    
-    
-    
+    opacity: 0.5;    
 }*/
-
 div.platforms {
 
     align-content: center;
     position: relative;
     width: 100vw;
-    
-    
 }
-
 div.platforms i {
+    position: relative;
     align-items: center;
+    left: 140px;
     font-size: 40px;
     color: lightgray;
     text-shadow: 5px 4px 5px #000000;
-    margin: 30px 15px 0px 15px;
-    border: none;
-    border-spacing: 30px;
+    margin: 30px 7% 0px 7%;
 }
-
 div.platforms hr {
     align-items: center;
     position: relative;
-    width: 80vw;
-    
+    width: 80%;
+}
+div.sliderLogo {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 50vw;
+    margin: 0;
 }
 
-h2.slider {
-
-    position: relative;
-    top: -100px;
-    text-align: center;
-    font-family: sans-serif;
-    font-size: 35px;
-    text-shadow: 4px 4px 4px #000000;
-    color: darkgray;
-
-}
-
-ul.descriptionList {
-
-    width: 500px;
-    position: relative;
-    top: 70px;
-    left: 900px;
-    font-family: sans-serif;
-    font-size: 23px;
-    text-shadow: 2px 2px 4px #000000;
-    color: darkgray;
-
-
-
-}
-
-div.gameLogo {
+div.sliderLogo video {
 
     position: relative;
     background-image: url("../img/evoland2.jpg");
     width: 620px;
     height: 350px;
-    top: -230px;
-    left: 210px;
+    margin: 100px 15px 0px 200px;
+    
     
 }
+div.slider {
+
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 50vw;
+    height: 700px;
+    margin: 0;
+}
+div.slider h2 {
+
+    position: relative;
+    height: 35px;
+    order: 2;
+    font-family: Montserrat-Light;
+    font-size: 35px;
+    text-shadow: 2px 2px 4px #000000;
+    color: darkgray;
+    flex-direction: column;
+    margin: 30px;
+}
+div.slider ul {
+
+    position: relative;
+    height: 120px;
+    font-family: Montserrat-Light;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px #000000;
+    color: darkgray;
+    flex-direction: column;
+    }
+
 
 
 
