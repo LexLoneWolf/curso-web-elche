@@ -79,34 +79,37 @@ div.platform i {
 div.line {
     width: 80%;
 }
-div.sliderLogo {
-    display:flex;
-    align-items: flex-start;
-    }
-div.sliderLogo video {
+div.main-content {
+    display: flex;
+    justify-content: space-around;
+    
+}
+div.game-logo video {
 
     background-image: url("../img/evoland2.jpg");
     width: 620px;
     height: 350px;
     margin: 30px 0 0 15%;
 }
-div.slider {
+div.game-description {
     display: flex;
-    align-items: flex-end;
     flex-direction: column;
 }
-h2.gameTitle {
+div.game-title {
+
+    
+}
+div.game-title h2 {
 
     font-family: Montserrat-Light;
     font-size: 35px;
     text-shadow: 2px 2px 4px #000000;
     color: white;
 }
-div.descriptionBox {
-    display: flex;
-    align-items: flex-end
+div.description-list {
+
 }
-ul.description {
+ul {
 
     font-family: Montserrat-Light;
     font-size: 20px;
