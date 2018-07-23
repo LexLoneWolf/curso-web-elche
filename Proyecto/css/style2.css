@@ -16,7 +16,7 @@ header {
     
     display: flex;
     align-items: center;
-/*  justify-content: center; */
+    justify-content: center;
     background-image: url("../img/fox.jpg");
     width: 100vw;
     height: 280px;
@@ -32,6 +32,7 @@ h1 {
     font-family: Montserrat-Light;
     font-size: 70px;
     text-shadow: 5px 5px 6px #000000;
+    margin-bottom: 0;
 }
 input.searchbar {
     
@@ -51,11 +52,13 @@ input.searchbar {
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
     opacity: 0.6;
+    margin-top: 50px;
 }
 input.searchbar:hover {
     width: 350px;
 }
 div.menu {
+
     margin-top: 40px;
     display: flex;
     align-items: center;
@@ -63,41 +66,66 @@ div.menu {
     flex-direction: column;
 }
 div.platform  {
+
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    width: 10%;
+    width: 60%; 
 }
 div.platform i {
     
     font-size: 40px;
     color: white;
     text-shadow: 5px 4px 5px #000000;
-    margin: 0 70% 0 70%;
+    margin: 0 10% 5px 10%;
 }
 div.line {
+
     width: 80%;
 }
+div.line hr {
+
+    border:none;
+    height: 25px;
+ 	width: 100;
+	height: 50px;
+	margin-top: 0;
+	box-shadow: 0 20px 20px -20px white;
+    margin: -50px auto 10px; 
+}
 div.main-content {
+
     display: flex;
     justify-content: space-around;
-    
+    padding: 80px 5% 0 5%;
+}
+div.game-logo {
+
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-left: 5%;
+    margin-top: 50px;
 }
 div.game-logo video {
 
     background-image: url("../img/evoland2.jpg");
     width: 620px;
     height: 350px;
-    margin: 30px 0 0 15%;
 }
 div.game-description {
+
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-content: center;
 }
 div.game-title {
 
-    
+ display: flex;
+ justify-content: center;
+ align-content: center;
 }
 div.game-title h2 {
 
@@ -108,6 +136,10 @@ div.game-title h2 {
 }
 div.description-list {
 
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-right: 5%;
 }
 ul {
 
@@ -115,4 +147,5 @@ ul {
     font-size: 20px;
     text-shadow: 2px 2px 4px #000000;
     color: white;
+    line-height: 1.6;
 }
