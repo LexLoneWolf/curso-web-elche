@@ -69,17 +69,16 @@ div.menu {
 div.platform  {
 
     display: flex;
-    align-content: center;
-    justify-content: center;
+    align-content: space-between;
+    justify-content: space-between;
     width: 65%;
-     
 }
 div.platform i {
     
     font-size: 40px;
     color: white;
     text-shadow: 5px 4px 5px #000000;
-    margin: 0 10% 10px 10%;
+    margin-bottom: 5px;
 }
 div.line {
 
@@ -149,4 +148,69 @@ ul {
     text-shadow: 2px 2px 4px #000000;
     color: white;
     line-height: 1.6;
+}
+
+
+@media (max-width: 600px) {
+
+header {
+    
+        height: 150px;
+        background-image: url("../img/fox.jpg");
+    }
+
+h1 {
+        color: rgb(255, 255, 255);
+        font-family: Montserrat-Light;
+        font-size: 40px;
+        margin-bottom: 20px;
+        
+    }
+input.searchbar {
+    
+        width: 150px;
+        font-size: 10px;
+        background-position: 5px 5px;
+        margin: 0;
+    }
+input.searchbar:hover {
+
+        width: 230px;
+
+    }
+div.menu {
+
+        margin-top: 12px;
+        
+    }
+div.platform {
+
+        width: 300px;
+    }
+
+div.platform i {
+    
+        font-size: 30px;
+        color: white;
+        padding: 0 7px 0 7px;
+    }
+
+div.line {
+
+        width: 340px;
+    }
+div.main-content {
+
+        padding: 0;
+
+    }
+div.game-logo video {
+
+        order: 1;
+        width: 354px;
+        height: 200px;
+        margin-bottom: 15px;
+        background-image: url("../img/evoland2m.jpg")
+    }
+
 }
