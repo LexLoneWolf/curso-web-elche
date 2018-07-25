@@ -20,7 +20,7 @@ header {
     background-image: url("../img/fox.jpg");
     width: 100vw;
     height: 280px;
-    flex-direction: column; 
+    flex-direction: column;
 }
 @font-face {
 
@@ -43,8 +43,6 @@ input.searchbar {
     border: none;
     font-family: Montserrat-Light;
     font-size: 15px;
-    color: black; opacity: 0;
- /* background-color: white; */
     background-image: url("../img/searchIcon.png");
     background-position: 10px 10px; 
     background-repeat: no-repeat;
@@ -55,36 +53,37 @@ input.searchbar {
     margin-top: 50px;
 }
 input.searchbar:hover {
+
     width: 350px;
 }
 div.menu {
 
     margin-top: 40px;
     display: flex;
-    align-items: center;
     justify-content: center;
     flex-direction: column;
+    align-items: center;
+    
 }
 div.platform  {
 
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    width: 60%; 
+    align-content: space-between;
+    justify-content: space-between;
+    width: 65%;
 }
 div.platform i {
     
     font-size: 40px;
     color: white;
     text-shadow: 5px 4px 5px #000000;
-    margin: 0 10% 5px 10%;
+    margin-bottom: 5px;
 }
-div.line {
+div.platform-line {
 
     width: 80%;
 }
-div.line hr {
+div.platform-line hr {
 
     border:none;
     height: 25px;
@@ -98,15 +97,18 @@ div.main-content {
 
     display: flex;
     justify-content: space-around;
-    padding: 80px 5% 0 5%;
+    justify-content: center;
+    padding: 80px 10% 0 10%;
+    flex-wrap: nowrap;
+    
+    
 }
 div.game-logo {
 
     display: flex;
     align-content: center;
     justify-content: center;
-    margin-left: 5%;
-    margin-top: 50px;
+    margin: 50px 80px 0 0;
 }
 div.game-logo video {
 
@@ -123,29 +125,114 @@ div.game-description {
 }
 div.game-title {
 
- display: flex;
- justify-content: center;
- align-content: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 div.game-title h2 {
 
+    order: 0;
     font-family: Montserrat-Light;
     font-size: 35px;
     text-shadow: 2px 2px 4px #000000;
     color: white;
+    margin-bottom: 15px;
 }
 div.description-list {
 
     display: flex;
     align-content: center;
     justify-content: center;
-    margin-right: 5%;
+    
 }
-ul {
+div.description-list ul {
+
+    font-family: Montserrat-Light;
+    font-size: 15px;
+    text-shadow: 2px 2px 4px #000000;
+    color: white;
+    line-height: 1.6;
+    margin: 0;
+     
+}
+p.subtitle {
 
     font-family: Montserrat-Light;
     font-size: 20px;
     text-shadow: 2px 2px 4px #000000;
-    color: white;
-    line-height: 1.6;
+    text-align: justify;
+    margin-bottom: 5px;
+}
+
+/* 
+
+
+DISPOSITIVO MÓVIL
+
+
+*/
+
+
+@media (max-width: 600px) {
+
+header {
+    
+        height: 150px;
+        background-image: url("../img/foxm.jpg");
+    }
+
+h1 {
+        color: rgb(255, 255, 255);
+        font-family: Montserrat-Light;
+        font-size: 40px;
+        margin-bottom: 20px;
+        
+    }
+input.searchbar {
+    
+        width: 150px;
+        font-size: 10px;
+        background-position: 5px 5px;
+        margin: 0;
+    }
+input.searchbar:hover {
+
+        width: 230px;
+
+    }
+div.menu {
+
+        margin-top: 12px;
+        
+    }
+div.platform {
+
+        width: 300px;
+    }
+
+div.platform i {
+    
+        font-size: 30px;
+        color: white;
+        padding: 0 7px 0 7px;
+    }
+
+div.platform-line {
+
+        width: 95%;
+    }
+div.main-content {
+
+        padding: 0;
+        flex-wrap: wrap;
+        
+    }
+div.game-logo video {
+        
+        width: 345px;
+        height: 195px;
+        margin-bottom: 15px;
+        background-image: url("../img/evoland2m.jpg")
+    }
+
 }
