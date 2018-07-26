@@ -11,6 +11,9 @@ html{
 body{
 
     background-color: rgb(41, 41, 41);
+    position: relative;
+    z-index: 1;
+    
     
 }
 header {
@@ -58,14 +61,20 @@ input.searchbar:hover {
 
     width: 350px;
 }
+#particles {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
 div.menu {
-
-    margin-top: 40px;
+    
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    
+    background-color: rgba(41, 41, 41, 0.9);
+    padding-top: 20px;
 }
 div.platform  {
 
@@ -89,7 +98,6 @@ div.platform-line hr {
 
     border:none;
     height: 25px;
- 	width: 100;
 	height: 50px;
 	margin-top: 0;
 	box-shadow: 0 20px 20px -20px white;
@@ -99,7 +107,7 @@ div.main-content {
 
     display: flex;
     justify-content: space-around;
-    padding: 50px 10% 0 10%;
+    padding: 50px 8% 0 8%;
     flex-wrap: wrap;
     
 }
@@ -119,11 +127,11 @@ div.game-title h2 {
     font-size: 40px;
     text-shadow: 2px 2px 4px #000000;
     color: white;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 div.game-logo {
 
-    padding: 30px 10px 0 10px;
+    padding: 0px 10px 0 10px;
 }
 div.game-logo video {
 
@@ -134,7 +142,10 @@ div.game-logo video {
 div.game-description {
 
     width: 500px;
-    overflow: scroll; visibility: visible;
+    overflow-x: hidden;
+    padding-right: 20px;
+    height: 407px;
+    background-color: rgba(41, 41, 41, 0.9);
 }
 div.description-list1 {
 
@@ -142,6 +153,7 @@ div.description-list1 {
     justify-content: center;
     text-align: center;
     flex-direction: column;
+    height: 410px;
 }
 a {
 
@@ -172,35 +184,10 @@ p.description {
     
      
 }
-div.content2 {
+footer {
 
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 120px 20% 80px 20%;
-    text-align: center;
+    height: 200px;
 }
-div.descriptionlist-2 p {
-
-    font-family: Montserrat-Light;
-    font-size: 28px;
-    text-shadow: 2px 2px 4px #000000;
-    color: white;
-}
-div.more {
-    
-    font-family: Montserrat-Light;
-    font-size: 18px;
-    text-shadow: 2px 2px 4px #000000;
-    color: white;
-    text-align: initial;
-    
-    
-    
-}
-
-
 
 /* 
 

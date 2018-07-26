@@ -1,3 +1,45 @@
-.miclase {
-    color: red;
+.error {
+    border: 1px #f00;
+    background-color: #fdd;
+}
+.errorSerio {
+    @extend .error;
+    border-width: 3px;
+}
+.errorCritico {
+    @extend .errorSerio;
+    position: fixed;
+    top: 10%;
+    bottom:10%;
+    left: 10%;
+    right: 10%;
+}
+@for $i from 1 to 3 {
+    .item-#{$i} {width: 2em + $i;}
+}
+@for $i from 1 to 3 {
+    .item-#{$i} {width: 2em * $i;}
+}
+
+@each $animal in puma, caballo, oso , cebra {
+    .#{$animal}-icon {
+        background-image: url('/img/#{$animal}.png');
+    }
+}
+
+@each $animal, $color, $cursor in (puma, black, default),
+(caballo, brown, pointer),
+(oso, white, move) {
+    .#{($animal)}-icon {
+        background-image: url('/images/#{$animal}.png');
+        border: 2px solid $color;
+    }
+}
+    
+
+
+$i: 6;
+@while $i > 0 {
+    .item-#{$i} { width: 2em * $i;}
+    $i: $i - 2;
 }

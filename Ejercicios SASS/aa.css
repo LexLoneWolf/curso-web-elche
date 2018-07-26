@@ -1,3 +1,76 @@
+.error, .errorSerio, .errorCritico {
+  border: 1px #f00;
+  background-color: #fdd;
+}
 
+.errorSerio, .errorCritico {
+  border-width: 3px;
+}
 
+.errorCritico {
+  position: fixed;
+  top: 10%;
+  bottom: 10%;
+  left: 10%;
+  right: 10%;
+}
+
+.item-1 {
+  width: 3em;
+}
+
+.item-2 {
+  width: 4em;
+}
+
+.item-1 {
+  width: 2em;
+}
+
+.item-2 {
+  width: 4em;
+}
+
+.puma-icon {
+  background-image: url("/img/puma.png");
+}
+
+.caballo-icon {
+  background-image: url("/img/caballo.png");
+}
+
+.oso-icon {
+  background-image: url("/img/oso.png");
+}
+
+.cebra-icon {
+  background-image: url("/img/cebra.png");
+}
+
+.puma-icon {
+  background-image: url("/images/puma.png");
+  border: 2px solid black;
+}
+
+.caballo-icon {
+  background-image: url("/images/caballo.png");
+  border: 2px solid brown;
+}
+
+.oso-icon {
+  background-image: url("/images/oso.png");
+  border: 2px solid white;
+}
+
+.item-6 {
+  width: 12em;
+}
+
+.item-4 {
+  width: 8em;
+}
+
+.item-2 {
+  width: 4em;
+}
 /*# sourceMappingURL=aa.css.map */
